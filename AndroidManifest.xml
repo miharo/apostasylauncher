@@ -26,7 +26,7 @@
      to come from a domain that you own or have control over.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.home" >
+    package="com.apostasy.launcher" >
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -51,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="Wallpaper"
+            android:name="com.apostasy.launcher.Wallpaper"
             android:icon="@drawable/bg_android_icon"
             android:label="Wallpaper" >
             <intent-filter>

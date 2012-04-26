@@ -16,7 +16,7 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:home="http://schemas.android.com/apk/res/com.example.android.home"
+    xmlns:home="http://schemas.android.com/apk/res/com.apostasy.launcher"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -42,7 +42,7 @@
 
     <!-- Favorites and Recents -->
 
-    <com.example.android.home.ApplicationsStackLayout
+    <com.apostasy.launcher.ApplicationsStackLayout
         android:id="@+id/faves_and_recents"
         android:layout_width="match_parent"
         android:layout_height="65dip"
